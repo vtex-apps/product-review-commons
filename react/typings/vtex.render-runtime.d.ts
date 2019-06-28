@@ -27,6 +27,11 @@ declare module 'vtex.render-runtime' {
   export const ChildBlock: ComponentType<ChildBlockProps>
   export const useChildBlock = function({ id: string }): object {}
 
+  interface CssHandles {
+    [key: string]: string
+  }
+
+  export const useOwnerBlockCssHandles = (handles: string[]) => CssHandles
   export const Helmet: ReactElement
   export const Link: ReactType
   export const NoSSR: ReactElement

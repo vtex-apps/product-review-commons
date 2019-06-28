@@ -1,8 +1,5 @@
 {
-  "editor.base-store-component.title": "IO Base App",
-  "editor.base-store-component.description": "A demo component for IO apps",
-  "editor.base-store-component.title.title": "Title",
-  "editor.base-store-component.title.description": "Specify a custom title",
-  "base.title": "Hello, World!!",
-  "base.change-value": "Change your value: {value}"
+  "numberOfReviews": "{number, plural, =0 {No Reviews} =1 {# Review} other {# Reviews}}",
+  "writeAReview": "{number, plural, =0 {Write the first review} other {Write a review}}",
+  "rating": "{rating} out of 5 stars"
 }
